@@ -1,0 +1,29 @@
+{
+  "name": "gamehub-pansement",
+  "version": "1.0.0",
+  "description": "atelier duo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node-dev app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/O-clock-Cassini/gameHub-pansement.git"
+  },
+  "keywords": [
+    "atelier",
+    "gamehub"
+  ],
+  "author": "Juan Quiros",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/O-clock-Cassini/gameHub-pansement/issues"
+  },
+  "homepage": "https://github.com/O-clock-Cassini/gameHub-pansement#readme",
+  "dependencies": {
+    "dayjs": "^1.11.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3"
+  }
+}

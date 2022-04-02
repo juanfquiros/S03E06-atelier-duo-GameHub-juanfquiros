@@ -1,0 +1,61 @@
+body {
+  background: #ddd;
+}
+
+body,
+html {
+
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.player {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 15px 0 15px 35px;
+  border-color: transparent transparent transparent blue;
+
+  margin: 20px;
+}
+
+.player.down {
+  transform: rotate(90deg);
+}
+
+.player.up {
+  transform: rotate(-90deg);
+}
+
+.player.left {
+  transform: rotate(180deg);
+}
+
+.player.right {
+  transform: rotate(0deg);
+}
+
+#board {
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.cell {
+  width: 70px;
+  height: 70px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.target-cell {
+  border-color: red;
+}
